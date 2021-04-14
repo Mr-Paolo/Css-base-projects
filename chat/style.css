@@ -1,10 +1,15 @@
+:root{
+    --color-primary: #BCEBCB;
+    --circle-size: 1rem;
+}
+
 .status.dot{
-    max-width: 16px;
-    min-height: 16px;
+    max-width: var(--circle-size);
+    min-height: var(--circle-size);
     border-radius: 50%;
     background: #ccc;
-    min-width: 16px;
-    max-height: 16px;
+    min-width: var(--circle-size);
+    max-height: var(--circle-size);
     margin-right: .4rem;
 }
 
@@ -18,7 +23,7 @@
 }
 .chat-contact-header{
     max-height: 100px;
-    background-color: blue;
+    background-color: var(--color-primary);
 }
 
 .chat-input{
