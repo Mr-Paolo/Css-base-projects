@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="contact-list">
+            <div class="list">
+                <div class="single-contact">
+                    <div class="thumb-content">
+                        <img src="https://picsum.photos/id/1027/100/100" alt="">
+                    </div>
+                    <div class="contact-detail-content">
+                        <b>Michelle</b>
+                        <div class="status-content">
+                            <div class="status dot"></div> Offline
+                        </div>
+                    </div>
+                </div>
+                <div class="single-contact">
+                    <div class="thumb-content">
+                        <img src="https://picsum.photos/id/22/100/100" alt="">
+                    </div>
+                    <div class="contact-detail-content">
+                        <b>Francesco</b>
+                        <div class="status-content">
+                            <div class="status dot active"></div> Online
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chat-container">
+            <div class="main-chat-block">
+                <header class="chat-contact-header">
+                    <div class="single-contact">
+                        <div class="thumb-content">
+                            <img src="https://picsum.photos/id/22/100/100" alt="">
+                        </div>
+                        <div class="contact-detail-content">
+                            <b>Francesco</b>
+                            <div class="status-content">
+                                <div class="status dot active"></div> Online
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="chat-messages">
+                    <div class="message-container received">
+                        <div class="message-content">
+                            Hi! how are you?
+                        </div>
+                    </div>
+                    <div class="message-container sended">
+                        <div class="message-content">
+                            Hi Francesco! I'm fine thanks, how you doing?
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text">
+                    <button class="btn send">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

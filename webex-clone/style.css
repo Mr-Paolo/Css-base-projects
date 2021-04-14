@@ -1,0 +1,10 @@
+.webcam-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+.webcam{
+    width: 50%;
+}
+.webcam-video{
+    max-width: 100%;
+}
